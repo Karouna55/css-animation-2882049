@@ -19,7 +19,7 @@ button {
 	font-size:1rem;
 	text-align: center;
 	text-transform: uppercase;
-  transition:linear;
+  transition:cubic-bezier(1, 0, 0, 1) 0.5s;
 }
 
 button:hover {
