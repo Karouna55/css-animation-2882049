@@ -19,7 +19,7 @@ button {
 	font-size:1rem;
 	text-align: center;
 	text-transform: uppercase;
-  transition: step-end;
+  transition:linear;
 }
 
 button:hover {
