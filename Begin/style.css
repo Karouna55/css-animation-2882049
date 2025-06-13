@@ -10,8 +10,13 @@ h1 {
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
+  animation: typing 3s steps(14)
+            blinking 0.5s steps(1) infinite
 }
-
+@keyframes typing {
+  0% { width: 0px;}
+100% {width: 100%}
+}
 
 @keyframes blinking {
   0%, 100% {
